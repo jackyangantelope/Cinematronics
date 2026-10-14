@@ -1,0 +1,2852 @@
+[
+  {
+    "id": "spacewar",
+    "parent": "0",
+    "machine": "spacewar",
+    "title": "Space Wars",
+    "rom_size": 4096,
+    "video": "mono",
+    "jmi": false,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 252,
+    "chips": [
+      {
+        "name": "spacewar.1l",
+        "offset": 0,
+        "size": 2048,
+        "crc": 3991993683,
+        "nibble": -1
+      },
+      {
+        "name": "spacewar.2r",
+        "offset": 1,
+        "size": 2048,
+        "crc": 1327575691,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        0,
+        0,
+        0,
+        51
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        56
+      ],
+      [
+        4,
+        0,
+        0,
+        0,
+        52
+      ],
+      [
+        8,
+        0,
+        0,
+        0,
+        57
+      ],
+      [
+        16,
+        0,
+        0,
+        0,
+        49
+      ],
+      [
+        32,
+        0,
+        0,
+        0,
+        54
+      ],
+      [
+        64,
+        0,
+        0,
+        0,
+        50
+      ],
+      [
+        128,
+        0,
+        0,
+        0,
+        55
+      ],
+      [
+        256,
+        256,
+        0,
+        0,
+        0
+      ],
+      [
+        512,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        1024,
+        0,
+        0,
+        0,
+        53
+      ],
+      [
+        2048,
+        0,
+        0,
+        0,
+        48
+      ],
+      [
+        4096,
+        512,
+        0,
+        1,
+        0
+      ],
+      [
+        8192,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        16384,
+        256,
+        0,
+        1,
+        0
+      ],
+      [
+        32768,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        8,
+        4,
+        1,
+        1,
+        0
+      ],
+      [
+        16,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        32,
+        4,
+        1,
+        0,
+        0
+      ],
+      [
+        64,
+        0,
+        1,
+        0,
+        114
+      ]
+    ]
+  },
+  {
+    "id": "spaceshp",
+    "parent": "spacewar",
+    "machine": "spacewar",
+    "title": "Space Ship",
+    "rom_size": 4096,
+    "video": "mono",
+    "jmi": false,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 252,
+    "chips": [
+      {
+        "name": "pr08.61",
+        "offset": 0,
+        "size": 1024,
+        "crc": 1433161716,
+        "nibble": 4
+      },
+      {
+        "name": "pr07.63",
+        "offset": 0,
+        "size": 1024,
+        "crc": 3128379345,
+        "nibble": 0
+      },
+      {
+        "name": "pr04.83",
+        "offset": 1,
+        "size": 1024,
+        "crc": 429287321,
+        "nibble": 4
+      },
+      {
+        "name": "pr03.85",
+        "offset": 1,
+        "size": 1024,
+        "crc": 3595924739,
+        "nibble": 0
+      },
+      {
+        "name": "pr10.62",
+        "offset": 2048,
+        "size": 1024,
+        "crc": 1054958585,
+        "nibble": 4
+      },
+      {
+        "name": "pr09.64",
+        "offset": 2048,
+        "size": 1024,
+        "crc": 2034632812,
+        "nibble": 0
+      },
+      {
+        "name": "pr06.84",
+        "offset": 2049,
+        "size": 1024,
+        "crc": 4053569200,
+        "nibble": 4
+      },
+      {
+        "name": "pr05.86",
+        "offset": 2049,
+        "size": 1024,
+        "crc": 1035756384,
+        "nibble": 0
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        0,
+        0,
+        0,
+        51
+      ],
+      [
+        2,
+        0,
+        0,
+        0,
+        56
+      ],
+      [
+        4,
+        0,
+        0,
+        0,
+        52
+      ],
+      [
+        8,
+        0,
+        0,
+        0,
+        57
+      ],
+      [
+        16,
+        0,
+        0,
+        0,
+        49
+      ],
+      [
+        32,
+        0,
+        0,
+        0,
+        54
+      ],
+      [
+        64,
+        0,
+        0,
+        0,
+        50
+      ],
+      [
+        128,
+        0,
+        0,
+        0,
+        55
+      ],
+      [
+        1024,
+        0,
+        0,
+        0,
+        53
+      ],
+      [
+        2048,
+        0,
+        0,
+        0,
+        48
+      ],
+      [
+        256,
+        256,
+        0,
+        0,
+        0
+      ],
+      [
+        512,
+        64,
+        0,
+        1,
+        0
+      ],
+      [
+        4096,
+        512,
+        0,
+        1,
+        0
+      ],
+      [
+        8192,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        16384,
+        256,
+        0,
+        1,
+        0
+      ],
+      [
+        32768,
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        0,
+        1,
+        0,
+        114
+      ],
+      [
+        4,
+        1,
+        1,
+        1,
+        0
+      ],
+      [
+        8,
+        2,
+        1,
+        1,
+        0
+      ],
+      [
+        16,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        32,
+        2,
+        1,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "barrier",
+    "parent": "0",
+    "machine": "barrier",
+    "title": "Barrier",
+    "rom_size": 4096,
+    "video": "mono",
+    "jmi": true,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 254,
+    "chips": [
+      {
+        "name": "barrier.t7",
+        "offset": 0,
+        "size": 2048,
+        "crc": 2084399304,
+        "nibble": -1
+      },
+      {
+        "name": "barrier.p7",
+        "offset": 1,
+        "size": 2048,
+        "crc": 2931901109,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        0,
+        0,
+        0,
+        97
+      ],
+      [
+        4,
+        0,
+        0,
+        0,
+        98
+      ],
+      [
+        8,
+        128,
+        0,
+        0,
+        0
+      ],
+      [
+        16,
+        2048,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        0,
+        0,
+        0,
+        99
+      ],
+      [
+        256,
+        256,
+        0,
+        1,
+        0
+      ],
+      [
+        512,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        1024,
+        128,
+        0,
+        1,
+        0
+      ],
+      [
+        2048,
+        1056,
+        0,
+        0,
+        0
+      ],
+      [
+        4096,
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        8192,
+        64,
+        0,
+        1,
+        0
+      ],
+      [
+        16384,
+        256,
+        0,
+        0,
+        0
+      ],
+      [
+        32768,
+        512,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "speedfrk",
+    "parent": "0",
+    "machine": "speedfrk",
+    "title": "Speed Freak",
+    "rom_size": 8192,
+    "video": "mono",
+    "jmi": false,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 254,
+    "chips": [
+      {
+        "name": "speedfrk.t7",
+        "offset": 0,
+        "size": 2048,
+        "crc": 894615615,
+        "nibble": -1
+      },
+      {
+        "name": "speedfrk.p7",
+        "offset": 1,
+        "size": 2048,
+        "crc": 1267781100,
+        "nibble": -1
+      },
+      {
+        "name": "speedfrk.u7",
+        "offset": 4096,
+        "size": 2048,
+        "crc": 1634499833,
+        "nibble": -1
+      },
+      {
+        "name": "speedfrk.r7",
+        "offset": 4097,
+        "size": 2048,
+        "crc": 4226354531,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        128,
+        1056,
+        0,
+        0,
+        0
+      ],
+      [
+        256,
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "starhawk",
+    "parent": "0",
+    "machine": "starhawk",
+    "title": "Starhawk",
+    "rom_size": 4096,
+    "video": "mono",
+    "jmi": true,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 255,
+    "chips": [
+      {
+        "name": "u7",
+        "offset": 0,
+        "size": 2048,
+        "crc": 929983580,
+        "nibble": -1
+      },
+      {
+        "name": "r7",
+        "offset": 1,
+        "size": 2048,
+        "crc": 3144750159,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        256,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        128,
+        0,
+        0,
+        0
+      ],
+      [
+        16,
+        512,
+        0,
+        1,
+        0
+      ],
+      [
+        32,
+        128,
+        0,
+        1,
+        0
+      ],
+      [
+        256,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        512,
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        1024,
+        256,
+        0,
+        1,
+        0
+      ],
+      [
+        2048,
+        64,
+        0,
+        1,
+        0
+      ],
+      [
+        4096,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        8192,
+        4,
+        0,
+        1,
+        0
+      ],
+      [
+        16384,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        32768,
+        8,
+        0,
+        1,
+        0
+      ],
+      [
+        4,
+        1056,
+        1,
+        0,
+        0
+      ],
+      [
+        8,
+        1,
+        1,
+        0,
+        0
+      ],
+      [
+        16,
+        2048,
+        1,
+        0,
+        0
+      ],
+      [
+        32,
+        1,
+        1,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "sundance",
+    "parent": "0",
+    "machine": "sundance",
+    "title": "Sundance",
+    "rom_size": 8192,
+    "video": "gray16",
+    "jmi": true,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 250,
+    "chips": [
+      {
+        "name": "sundance.t7",
+        "offset": 0,
+        "size": 2048,
+        "crc": 3585723161,
+        "nibble": -1
+      },
+      {
+        "name": "sundance.p7",
+        "offset": 1,
+        "size": 2048,
+        "crc": 1146900256,
+        "nibble": -1
+      },
+      {
+        "name": "sundance.u7",
+        "offset": 4096,
+        "size": 2048,
+        "crc": 1736998216,
+        "nibble": -1
+      },
+      {
+        "name": "sundance.r7",
+        "offset": 4097,
+        "size": 2048,
+        "crc": 280460989,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        1056,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        2048,
+        0,
+        0,
+        0
+      ],
+      [
+        16,
+        0,
+        0,
+        0,
+        46
+      ],
+      [
+        32,
+        0,
+        0,
+        0,
+        103
+      ],
+      [
+        64,
+        0,
+        0,
+        0,
+        47
+      ],
+      [
+        128,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        2048,
+        0,
+        0,
+        0,
+        44
+      ]
+    ]
+  },
+  {
+    "id": "tailg",
+    "parent": "0",
+    "machine": "tailg",
+    "title": "Tailgunner",
+    "rom_size": 8192,
+    "video": "mono",
+    "jmi": false,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 255,
+    "chips": [
+      {
+        "name": "tgunner.t70",
+        "offset": 0,
+        "size": 2048,
+        "crc": 569154052,
+        "nibble": -1
+      },
+      {
+        "name": "tgunner.p70",
+        "offset": 1,
+        "size": 2048,
+        "crc": 2373193907,
+        "nibble": -1
+      },
+      {
+        "name": "tgunner.t71",
+        "offset": 4096,
+        "size": 2048,
+        "crc": 747981494,
+        "nibble": -1
+      },
+      {
+        "name": "tgunner.p71",
+        "offset": 4097,
+        "size": 2048,
+        "crc": 2385282196,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        32,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        128,
+        1056,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "skyfire",
+    "parent": "tailg",
+    "machine": "tailg",
+    "title": "Sky Fire",
+    "rom_size": 8192,
+    "video": "mono",
+    "jmi": false,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 255,
+    "chips": [
+      {
+        "name": "rom3-x1-2.3t",
+        "offset": 0,
+        "size": 1024,
+        "crc": 554795746,
+        "nibble": -1
+      },
+      {
+        "name": "x9-1.3t",
+        "offset": 1,
+        "size": 1024,
+        "crc": 2579307627,
+        "nibble": -1
+      },
+      {
+        "name": "rom4-y1-2.4t",
+        "offset": 2048,
+        "size": 1024,
+        "crc": 3910531813,
+        "nibble": -1
+      },
+      {
+        "name": "y9-1.4t",
+        "offset": 2049,
+        "size": 1024,
+        "crc": 3794459602,
+        "nibble": -1
+      },
+      {
+        "name": "rom1-v1-2.1t",
+        "offset": 4096,
+        "size": 1024,
+        "crc": 2555427422,
+        "nibble": -1
+      },
+      {
+        "name": "v9-1.1t",
+        "offset": 4097,
+        "size": 1024,
+        "crc": 1364237254,
+        "nibble": -1
+      },
+      {
+        "name": "rom2-w1-2.2t",
+        "offset": 6144,
+        "size": 1024,
+        "crc": 2243773267,
+        "nibble": -1
+      },
+      {
+        "name": "w9-1.2t",
+        "offset": 6145,
+        "size": 1024,
+        "crc": 3052690758,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        32,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        128,
+        1056,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "warrior",
+    "parent": "0",
+    "machine": "warrior",
+    "title": "Warrior",
+    "rom_size": 8192,
+    "video": "mono",
+    "jmi": true,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 138,
+    "chips": [
+      {
+        "name": "warrior.t7",
+        "offset": 0,
+        "size": 2048,
+        "crc": 2889238265,
+        "nibble": -1
+      },
+      {
+        "name": "warrior.p7",
+        "offset": 1,
+        "size": 2048,
+        "crc": 1367158817,
+        "nibble": -1
+      },
+      {
+        "name": "warrior.u7",
+        "offset": 4096,
+        "size": 2048,
+        "crc": 775500815,
+        "nibble": -1
+      },
+      {
+        "name": "warrior.r7",
+        "offset": 4097,
+        "size": 2048,
+        "crc": 2391913730,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        512,
+        0,
+        1,
+        0
+      ],
+      [
+        2,
+        256,
+        0,
+        1,
+        0
+      ],
+      [
+        4,
+        64,
+        0,
+        1,
+        0
+      ],
+      [
+        8,
+        128,
+        0,
+        1,
+        0
+      ],
+      [
+        16,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        256,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        512,
+        256,
+        0,
+        0,
+        0
+      ],
+      [
+        1024,
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        2048,
+        128,
+        0,
+        0,
+        0
+      ],
+      [
+        4096,
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "armora",
+    "parent": "0",
+    "machine": "armora",
+    "title": "Armor Attack",
+    "rom_size": 16384,
+    "video": "mono",
+    "jmi": true,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 175,
+    "chips": [
+      {
+        "name": "ar414le.t6",
+        "offset": 0,
+        "size": 4096,
+        "crc": 3622248324,
+        "nibble": -1
+      },
+      {
+        "name": "ar414lo.p6",
+        "offset": 1,
+        "size": 4096,
+        "crc": 3743163248,
+        "nibble": -1
+      },
+      {
+        "name": "ar414ue.u6",
+        "offset": 8192,
+        "size": 4096,
+        "crc": 2955370776,
+        "nibble": -1
+      },
+      {
+        "name": "ar414uo.r6",
+        "offset": 8193,
+        "size": 4096,
+        "crc": 580745119,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        256,
+        0,
+        1,
+        0
+      ],
+      [
+        2,
+        1056,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        512,
+        0,
+        1,
+        0
+      ],
+      [
+        8,
+        2048,
+        0,
+        0,
+        0
+      ],
+      [
+        16,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        32,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        4096,
+        256,
+        0,
+        0,
+        0
+      ],
+      [
+        8192,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        16384,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        32768,
+        2,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "armorap",
+    "parent": "armora",
+    "machine": "armora",
+    "title": "Armor Attack (prototype)",
+    "rom_size": 16384,
+    "video": "mono",
+    "jmi": true,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 175,
+    "chips": [
+      {
+        "name": "ar414le.t6",
+        "offset": 0,
+        "size": 4096,
+        "crc": 3622248324,
+        "nibble": -1
+      },
+      {
+        "name": "ar414lo.p6",
+        "offset": 1,
+        "size": 4096,
+        "crc": 3743163248,
+        "nibble": -1
+      },
+      {
+        "name": "armorp.u7",
+        "offset": 8192,
+        "size": 4096,
+        "crc": 1250344330,
+        "nibble": -1
+      },
+      {
+        "name": "armorp.r7",
+        "offset": 8193,
+        "size": 4096,
+        "crc": 3537718958,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        256,
+        0,
+        1,
+        0
+      ],
+      [
+        2,
+        1056,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        512,
+        0,
+        1,
+        0
+      ],
+      [
+        8,
+        2048,
+        0,
+        0,
+        0
+      ],
+      [
+        16,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        32,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        4096,
+        256,
+        0,
+        0,
+        0
+      ],
+      [
+        8192,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        16384,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        32768,
+        2,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "armorar",
+    "parent": "armora",
+    "machine": "armora",
+    "title": "Armor Attack (Rock-Ola)",
+    "rom_size": 16384,
+    "video": "mono",
+    "jmi": true,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 175,
+    "chips": [
+      {
+        "name": "armorr.t7",
+        "offset": 0,
+        "size": 2048,
+        "crc": 627908313,
+        "nibble": -1
+      },
+      {
+        "name": "armorr.p7",
+        "offset": 1,
+        "size": 2048,
+        "crc": 3212165464,
+        "nibble": -1
+      },
+      {
+        "name": "armorr.u7",
+        "offset": 8192,
+        "size": 2048,
+        "crc": 3127391005,
+        "nibble": -1
+      },
+      {
+        "name": "armorr.r7",
+        "offset": 8193,
+        "size": 2048,
+        "crc": 4195664051,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        256,
+        0,
+        1,
+        0
+      ],
+      [
+        2,
+        1056,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        512,
+        0,
+        1,
+        0
+      ],
+      [
+        8,
+        2048,
+        0,
+        0,
+        0
+      ],
+      [
+        16,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        32,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        4096,
+        256,
+        0,
+        0,
+        0
+      ],
+      [
+        8192,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        16384,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        32768,
+        2,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "ripoff",
+    "parent": "0",
+    "machine": "ripoff",
+    "title": "Rip Off",
+    "rom_size": 8192,
+    "video": "mono",
+    "jmi": true,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 211,
+    "chips": [
+      {
+        "name": "ripoff.t7",
+        "offset": 0,
+        "size": 2048,
+        "crc": 1086506424,
+        "nibble": -1
+      },
+      {
+        "name": "ripoff.p7",
+        "offset": 1,
+        "size": 2048,
+        "crc": 2837482235,
+        "nibble": -1
+      },
+      {
+        "name": "ripoff.u7",
+        "offset": 4096,
+        "size": 2048,
+        "crc": 700528385,
+        "nibble": -1
+      },
+      {
+        "name": "ripoff.r7",
+        "offset": 4097,
+        "size": 2048,
+        "crc": 353096904,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        256,
+        0,
+        1,
+        0
+      ],
+      [
+        2,
+        1056,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        512,
+        0,
+        1,
+        0
+      ],
+      [
+        8,
+        2048,
+        0,
+        0,
+        0
+      ],
+      [
+        16,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        32,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        4096,
+        256,
+        0,
+        0,
+        0
+      ],
+      [
+        8192,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        16384,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        32768,
+        2,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "starcas",
+    "parent": "0",
+    "machine": "starcas",
+    "title": "Star Castle (version 3)",
+    "rom_size": 8192,
+    "video": "mono",
+    "jmi": true,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 191,
+    "chips": [
+      {
+        "name": "starcas3.t7",
+        "offset": 0,
+        "size": 2048,
+        "crc": 3045296989,
+        "nibble": -1
+      },
+      {
+        "name": "starcas3.p7",
+        "offset": 1,
+        "size": 2048,
+        "crc": 4139528013,
+        "nibble": -1
+      },
+      {
+        "name": "starcas3.u7",
+        "offset": 4096,
+        "size": 2048,
+        "crc": 411883900,
+        "nibble": -1
+      },
+      {
+        "name": "starcas3.r7",
+        "offset": 4097,
+        "size": 2048,
+        "crc": 3278354077,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        1056,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        2048,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        256,
+        0,
+        0,
+        0
+      ],
+      [
+        256,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        1024,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        4096,
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "starcas1",
+    "parent": "starcas",
+    "machine": "starcas",
+    "title": "Star Castle (older)",
+    "rom_size": 8192,
+    "video": "mono",
+    "jmi": true,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 191,
+    "chips": [
+      {
+        "name": "starcast.t7",
+        "offset": 0,
+        "size": 2048,
+        "crc": 1708171813,
+        "nibble": -1
+      },
+      {
+        "name": "starcast.p7",
+        "offset": 1,
+        "size": 2048,
+        "crc": 3639971226,
+        "nibble": -1
+      },
+      {
+        "name": "starcast.u7",
+        "offset": 4096,
+        "size": 2048,
+        "crc": 3572718466,
+        "nibble": -1
+      },
+      {
+        "name": "starcast.r7",
+        "offset": 4097,
+        "size": 2048,
+        "crc": 2681462356,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        1056,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        2048,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        256,
+        0,
+        0,
+        0
+      ],
+      [
+        256,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        1024,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        4096,
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "starcasc",
+    "parent": "starcas",
+    "machine": "starcas",
+    "title": "Star Castle (cocktail)",
+    "rom_size": 8192,
+    "video": "mono",
+    "jmi": true,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 191,
+    "chips": [
+      {
+        "name": "ctsc926_ue_3265.t7",
+        "offset": 0,
+        "size": 2048,
+        "crc": 3242238395,
+        "nibble": -1
+      },
+      {
+        "name": "ctsc926_le_deac.p7",
+        "offset": 1,
+        "size": 2048,
+        "crc": 2315734892,
+        "nibble": -1
+      },
+      {
+        "name": "ctsc926_u0_48e7.u7",
+        "offset": 4096,
+        "size": 2048,
+        "crc": 3977473809,
+        "nibble": -1
+      },
+      {
+        "name": "ctsc926_l0_f707.r7",
+        "offset": 4097,
+        "size": 2048,
+        "crc": 422621691,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        1056,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2048,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        256,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        16,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        32,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        2048,
+        256,
+        0,
+        1,
+        0
+      ],
+      [
+        4096,
+        512,
+        0,
+        1,
+        0
+      ],
+      [
+        8192,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        16384,
+        1,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "starcasp",
+    "parent": "starcas",
+    "machine": "starcas",
+    "title": "Star Castle (prototype)",
+    "rom_size": 8192,
+    "video": "mono",
+    "jmi": true,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 191,
+    "chips": [
+      {
+        "name": "starcasp.t7",
+        "offset": 0,
+        "size": 2048,
+        "crc": 3536146850,
+        "nibble": -1
+      },
+      {
+        "name": "starcasp.p7",
+        "offset": 1,
+        "size": 2048,
+        "crc": 3131368482,
+        "nibble": -1
+      },
+      {
+        "name": "starcasp.u7",
+        "offset": 4096,
+        "size": 2048,
+        "crc": 647240081,
+        "nibble": -1
+      },
+      {
+        "name": "starcasp.r7",
+        "offset": 4097,
+        "size": 2048,
+        "crc": 1573999077,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        1056,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        2048,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        256,
+        0,
+        0,
+        0
+      ],
+      [
+        256,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        1024,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        4096,
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "starcase",
+    "parent": "starcas",
+    "machine": "starcas",
+    "title": "Star Castle (Mottoeis)",
+    "rom_size": 8192,
+    "video": "mono",
+    "jmi": true,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 191,
+    "chips": [
+      {
+        "name": "starcast.t7",
+        "offset": 0,
+        "size": 2048,
+        "crc": 1708171813,
+        "nibble": -1
+      },
+      {
+        "name": "starcast.p7",
+        "offset": 1,
+        "size": 2048,
+        "crc": 3639971226,
+        "nibble": -1
+      },
+      {
+        "name": "starcast.u7",
+        "offset": 4096,
+        "size": 2048,
+        "crc": 3572718466,
+        "nibble": -1
+      },
+      {
+        "name": "mottoeis.r7",
+        "offset": 4097,
+        "size": 2048,
+        "crc": 2730618194,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        1056,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        2048,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        256,
+        0,
+        0,
+        0
+      ],
+      [
+        256,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        1024,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        4096,
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "stellcas",
+    "parent": "starcas",
+    "machine": "starcas",
+    "title": "Stellar Castle (Elettronolo)",
+    "rom_size": 8192,
+    "video": "mono",
+    "jmi": true,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 191,
+    "chips": [
+      {
+        "name": "starcast.t7",
+        "offset": 0,
+        "size": 2048,
+        "crc": 1708171813,
+        "nibble": -1
+      },
+      {
+        "name": "starcast.p7",
+        "offset": 1,
+        "size": 2048,
+        "crc": 3639971226,
+        "nibble": -1
+      },
+      {
+        "name": "elttron.u7",
+        "offset": 4096,
+        "size": 2048,
+        "crc": 3585359952,
+        "nibble": -1
+      },
+      {
+        "name": "elttron.r7",
+        "offset": 4097,
+        "size": 2048,
+        "crc": 1864312350,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        1056,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        2048,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        256,
+        0,
+        0,
+        0
+      ],
+      [
+        256,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        1024,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        4096,
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "spaceftr",
+    "parent": "starcas",
+    "machine": "starcas",
+    "title": "Space Fortress (Zaccaria)",
+    "rom_size": 8192,
+    "video": "mono",
+    "jmi": true,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 191,
+    "chips": [
+      {
+        "name": "fortrest7.7t",
+        "offset": 0,
+        "size": 2048,
+        "crc": 1708171813,
+        "nibble": -1
+      },
+      {
+        "name": "fortresp7.7p",
+        "offset": 1,
+        "size": 2048,
+        "crc": 3639971226,
+        "nibble": -1
+      },
+      {
+        "name": "fortresu7.7u",
+        "offset": 4096,
+        "size": 2048,
+        "crc": 330311804,
+        "nibble": -1
+      },
+      {
+        "name": "fortresr7.7r",
+        "offset": 4097,
+        "size": 2048,
+        "crc": 2730618194,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        1056,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        2048,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        256,
+        0,
+        0,
+        0
+      ],
+      [
+        256,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        1024,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        4096,
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "solarq",
+    "parent": "0",
+    "machine": "solarq",
+    "title": "Solar Quest (rev 10 8 81)",
+    "rom_size": 16384,
+    "video": "gray64",
+    "jmi": true,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 183,
+    "chips": [
+      {
+        "name": "sq-2_le.6t",
+        "offset": 0,
+        "size": 4096,
+        "crc": 524047155,
+        "nibble": -1
+      },
+      {
+        "name": "sq-2_lo.6p",
+        "offset": 1,
+        "size": 4096,
+        "crc": 3603000268,
+        "nibble": -1
+      },
+      {
+        "name": "sq-2_ue.6u",
+        "offset": 8192,
+        "size": 4096,
+        "crc": 2778140252,
+        "nibble": -1
+      },
+      {
+        "name": "sq-2_uo.6r",
+        "offset": 8193,
+        "size": 4096,
+        "crc": 3076784114,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        16,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        32,
+        256,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "boxingb",
+    "parent": "0",
+    "machine": "boxingb",
+    "title": "Boxing Bugs",
+    "rom_size": 32768,
+    "video": "rgb444",
+    "jmi": true,
+    "width": 1024,
+    "height": 788,
+    "input_default": 4095,
+    "switches": 227,
+    "chips": [
+      {
+        "name": "u1a",
+        "offset": 0,
+        "size": 4096,
+        "crc": 3541129999,
+        "nibble": -1
+      },
+      {
+        "name": "u1b",
+        "offset": 1,
+        "size": 4096,
+        "crc": 977544845,
+        "nibble": -1
+      },
+      {
+        "name": "u2a",
+        "offset": 8192,
+        "size": 4096,
+        "crc": 3380255931,
+        "nibble": -1
+      },
+      {
+        "name": "u2b",
+        "offset": 8193,
+        "size": 4096,
+        "crc": 2563985397,
+        "nibble": -1
+      },
+      {
+        "name": "u3a",
+        "offset": 16384,
+        "size": 4096,
+        "crc": 1538467483,
+        "nibble": -1
+      },
+      {
+        "name": "u3b",
+        "offset": 16385,
+        "size": 4096,
+        "crc": 2243920813,
+        "nibble": -1
+      },
+      {
+        "name": "u4a",
+        "offset": 24576,
+        "size": 4096,
+        "crc": 632625049,
+        "nibble": -1
+      },
+      {
+        "name": "u4b",
+        "offset": 24577,
+        "size": 4096,
+        "crc": 2135023210,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        1,
+        0,
+        1,
+        0
+      ],
+      [
+        2,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        4,
+        4,
+        0,
+        1,
+        0
+      ],
+      [
+        8,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        16,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        32,
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "wotw",
+    "parent": "0",
+    "machine": "wotw",
+    "title": "War of the Worlds",
+    "rom_size": 16384,
+    "video": "mono",
+    "jmi": true,
+    "width": 1120,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 253,
+    "chips": [
+      {
+        "name": "wow_le.t7",
+        "offset": 0,
+        "size": 4096,
+        "crc": 2976137465,
+        "nibble": -1
+      },
+      {
+        "name": "wow_lo.p7",
+        "offset": 1,
+        "size": 4096,
+        "crc": 3219081818,
+        "nibble": -1
+      },
+      {
+        "name": "wow_ue.u7",
+        "offset": 8192,
+        "size": 4096,
+        "crc": 2606557768,
+        "nibble": -1
+      },
+      {
+        "name": "wow_uo.r7",
+        "offset": 8193,
+        "size": 4096,
+        "crc": 3386099814,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        1056,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        2048,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        256,
+        0,
+        0,
+        0
+      ],
+      [
+        256,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        1024,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        4096,
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "wotwc",
+    "parent": "wotw",
+    "machine": "wotw",
+    "title": "War of the Worlds (color)",
+    "rom_size": 16384,
+    "video": "rgb444",
+    "jmi": true,
+    "width": 1023,
+    "height": 767,
+    "input_default": 65535,
+    "switches": 253,
+    "chips": [
+      {
+        "name": "wow_le.t7",
+        "offset": 0,
+        "size": 4096,
+        "crc": 2976137465,
+        "nibble": -1
+      },
+      {
+        "name": "wow_lo.p7",
+        "offset": 1,
+        "size": 4096,
+        "crc": 3219081818,
+        "nibble": -1
+      },
+      {
+        "name": "wow_ue.u7",
+        "offset": 8192,
+        "size": 4096,
+        "crc": 2606557768,
+        "nibble": -1
+      },
+      {
+        "name": "wow_uo.r7",
+        "offset": 8193,
+        "size": 4096,
+        "crc": 3386099814,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        1056,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        2048,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        256,
+        0,
+        0,
+        0
+      ],
+      [
+        256,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        1024,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        4096,
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "demon",
+    "parent": "0",
+    "machine": "demon",
+    "title": "Demon",
+    "rom_size": 16384,
+    "video": "mono",
+    "jmi": true,
+    "width": 1024,
+    "height": 805,
+    "input_default": 65535,
+    "switches": 243,
+    "chips": [
+      {
+        "name": "demon.7t",
+        "offset": 0,
+        "size": 4096,
+        "crc": 2254804673,
+        "nibble": -1
+      },
+      {
+        "name": "demon.7p",
+        "offset": 1,
+        "size": 4096,
+        "crc": 285860593,
+        "nibble": -1
+      },
+      {
+        "name": "demon.7u",
+        "offset": 8192,
+        "size": 4096,
+        "crc": 3561464771,
+        "nibble": -1
+      },
+      {
+        "name": "demon.7r",
+        "offset": 8193,
+        "size": 4096,
+        "crc": 1689589232,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        1056,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        2048,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        256,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        16,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        32,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        512,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        1024,
+        4,
+        0,
+        1,
+        0
+      ],
+      [
+        2048,
+        256,
+        0,
+        1,
+        0
+      ],
+      [
+        4096,
+        512,
+        0,
+        1,
+        0
+      ],
+      [
+        8192,
+        2,
+        0,
+        1,
+        0
+      ],
+      [
+        16384,
+        1,
+        0,
+        1,
+        0
+      ]
+    ]
+  },
+  {
+    "id": "qb3",
+    "parent": "0",
+    "machine": "qb3",
+    "title": "QB-3 (prototype)",
+    "rom_size": 32768,
+    "video": "rgb233",
+    "jmi": true,
+    "width": 1120,
+    "height": 780,
+    "input_default": 65535,
+    "switches": 234,
+    "chips": [
+      {
+        "name": "qb3_le_t7.bin",
+        "offset": 0,
+        "size": 8192,
+        "crc": 2913660492,
+        "nibble": -1
+      },
+      {
+        "name": "qb3_lo_p7.bin",
+        "offset": 1,
+        "size": 8192,
+        "crc": 1928731039,
+        "nibble": -1
+      },
+      {
+        "name": "qb3_ue_u7.bin",
+        "offset": 16384,
+        "size": 8192,
+        "crc": 84580717,
+        "nibble": -1
+      },
+      {
+        "name": "qb3_uo_r7.bin",
+        "offset": 16385,
+        "size": 8192,
+        "crc": 872052642,
+        "nibble": -1
+      }
+    ],
+    "bindings": [
+      [
+        1,
+        64,
+        0,
+        0,
+        0
+      ],
+      [
+        2,
+        128,
+        0,
+        0,
+        0
+      ],
+      [
+        4,
+        4,
+        0,
+        0,
+        0
+      ],
+      [
+        8,
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        16,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        32,
+        1,
+        0,
+        0,
+        0
+      ],
+      [
+        64,
+        1056,
+        0,
+        0,
+        0
+      ],
+      [
+        128,
+        2048,
+        0,
+        0,
+        0
+      ],
+      [
+        256,
+        8,
+        0,
+        0,
+        0
+      ],
+      [
+        1024,
+        2,
+        0,
+        0,
+        0
+      ],
+      [
+        2048,
+        512,
+        0,
+        0,
+        0
+      ],
+      [
+        8192,
+        256,
+        0,
+        0,
+        0
+      ],
+      [
+        16384,
+        1,
+        0,
+        0,
+        0
+      ]
+    ]
+  }
+]

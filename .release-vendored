@@ -1,0 +1,4 @@
+deps/mame-reference
+deps/miniz
+deps/pico_shared
+platform/hdmi
